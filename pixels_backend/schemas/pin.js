@@ -28,12 +28,12 @@ export default {
             title: 'Image',
             type: 'image',
             options: {
-                hotspot: true
-            }
+                hotspot: true,
+            },
         },
         {
             name: 'userId',
-            title: 'UserID',
+            title: 'UserId',
             type: 'string',
         },
         {
@@ -45,13 +45,13 @@ export default {
             name: 'save',
             title: 'Save',
             type: 'array',
-            of: [{ type: 'save' }]
+            of: [{ type: 'save' }],
         },
         {
             name: 'comments',
             title: 'Comments',
             type: 'array',
-            of: [{ type: 'comment' }]
+            of: [{ type: 'comment' }],
         },
-    ]
-}
+    ],
+};
